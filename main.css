@@ -12,3 +12,14 @@ canvas{
     height: 100%;
 }
 
+#wavelengthLabel {
+  position: fixed;           /* stays centered in the window */
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;      /* clicks go through to the canvas */
+  color: white;
+  font-family: system-ui, sans-serif;
+  font-size: 32px;
+  text-shadow: 0 0 8px black;
+}
